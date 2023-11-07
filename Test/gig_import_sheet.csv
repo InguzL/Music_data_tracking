@@ -1,0 +1,5 @@
+venue_id,date_of_gig,merch_income,tickets_income,expenses,venue_rating,audience_rating,maps_page,"venue_latitude, venue_longitude"
+folk_house,2012-10-19,300,500,254,5,1,https://maps.app.goo.gl/tyEPDzeCnvDyJFg77,"51.475076499365585, -2.575296579720651"
+bristol_fringe,1998-08-27,100,300,120,3,3,https://maps.app.goo.gl/oFCKsP9mNqwFKXuU7,"51.45448501523362, -2.6208078316608012"
+chapel_arts_centre,2075-08-29,200,150,220,4,2,https://maps.app.goo.gl/dLGS1pD8LWoSdyt56,"51.37975440478398, -2.36026902610445"
+exeter_phoenix,2018-07-15,400,125,180,5,5,https://maps.app.goo.gl/emVSfqnhCDcw2tbC8,"50.7253176400975, -3.5314813758824766"
