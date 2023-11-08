@@ -2,9 +2,9 @@
 import requests
 import plotly.express as px
 import pandas as pd
+import plotly.io as pio
 
-
-df = pd.read_csv("/Users/Jakemanns/Documents/Terraform_project_files/Music_data_tracking/Test/gig_import_sheet.csv")
+df = pd.read_csv("./test/gig_import_sheet.csv")
 
 df['merch_income'].replace(" ", "")
 df['tickets_income'].replace(" ", "")
@@ -18,7 +18,7 @@ df['profit_percentage'] = (df['net_income'] - df['expenses']) / df['expenses'] *
 df['overall_rating'] = df[['venue_rating', 'audience_rating']].mean(axis=1)
 
 # df = px.data.[imported from dynamodb]
-print(df)
+
 fig = px.scatter_mapbox(df,
                         lon = df['longitude'],
                         lat = df['latitude'],
